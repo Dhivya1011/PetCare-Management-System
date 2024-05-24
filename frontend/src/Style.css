@@ -1,0 +1,345 @@
+/* NAV BAR */
+.container-fluid{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightgrey;
+}
+.container-fluid a{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+}
+.navbar1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.navbar2 ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar2 ul li{
+    list-style: none;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* INDEX PAGE */
+.index1{
+    background-image: url("https://petbarnkw.com/wp-content/uploads/2021/04/516438-istock-637689912.jpg" );
+    background-size: 100%;
+    height: 680px;
+    text-align:right;
+}
+.index2{
+    padding-top: 150px;
+    padding-right: 40px;
+}
+.index2 .head1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.index2 .head2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.index2 .button1{
+    border-style: none;
+    background-color: transparent;
+}
+.index2 .button1 a{
+    color: black;
+}
+
+
+/* SIGN UP PAGE */
+.signup1{
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-cute-cartoon-dog-banner-picture-image_1080797.jpg");
+    background-size: 100%;
+    height: 680px;
+    text-align: center;
+}
+.signup2{
+    padding-top: 200px;
+}
+.signup2 input{
+    border-radius: 10px;
+}
+.signup2 label{
+    font-size: large;
+    font-family:serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.signup2 button{
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 3px 15px 3px 15px;
+}
+
+
+/* LOGIN PAGE */
+.login1{
+
+    background-image: url("https://t4.ftcdn.net/jpg/02/28/67/07/360_F_228670737_QtftGXJAHbLmN4IerXpNqCbuSk1mncX3.jpg");
+    background-size: 100%;
+    height: 680px;
+    text-align: center;
+}
+.login2{
+    padding-top: 250px;
+}
+.login2 input{
+    border-radius: 10px;
+}
+.login2 label{
+    font-size: large;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+  
+}
+.login2 button{
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 3px 15px 3px 15px;
+}
+
+
+
+/* HOME PAGE */
+
+.home1{
+    background-image: url("https://www.fourpaws.com/-/media/Project/OneWeb/FourPaws/Images/articles/health-and-wellness/can-dogs-be-allergic-to-cats/dog-and-cat-cropped.jpg?h=388&iar=0&w=927&hash=BC3036316F4D85D73C49C00849625695");
+    background-size: 100%;
+    height: 680px;
+    padding-left: 550px;
+}
+.home2{
+    display: flex;
+    padding-top: 150px;
+    padding-left: 350px;
+    height: 1000px;
+    background-color:lightgray;
+}
+.image1 .img1{
+    padding-top: 30px;
+}
+.img2{
+    padding-top: 30px;
+}
+.img3{
+    padding-top: 30px;
+}
+.content1 .cont1{
+    padding-top: 80px;
+    padding-left: 50px
+}
+.cont2{
+    padding-top: 140px;
+    padding-left: 50px
+}
+.cont3{
+    padding-top: 190px;
+    padding-left: 50px
+}
+
+/* HOME 3 */
+.home4{
+    height: 200px;
+    width: 100%;
+    padding-top: 30px;
+    background-color:tan;
+}
+.home4 h3{
+    font-style: italic;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.home4 h6{
+    font-style: italic;
+    padding-top: 20px;
+}
+
+.home5 .box1{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+}
+.box2{
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+} 
+.box3{
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+}
+.box4{
+     margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+}
+
+
+
+
+
+/* FOOTER */
+.footer{
+    background-size: cover;
+    background-color:sandybrown;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    height: 600px;
+}
+.footer1, .footer2, .footer3{
+    padding-left: 150px;
+}
+.footer h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer4{
+    margin-top: 100px;
+}
+#instagram, #facebook, #youtube, #twitter{
+    margin: 30px;
+}
+
+
+
+/* ABOUT PAGE */
+.about1{
+    background-image: url("https://petrehomer.org/media/h52ldmzf/desktop-banner-petwelfare.jpg");
+    background-size: 100%;
+    height: 400px;
+    padding-top: 20px;
+    text-align: center;
+}
+.about1 h3{
+    font-weight: bolder;
+}
+.about1 h5{
+    font-style: italic;
+}
+.about2 h3{
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 550px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+.about2 h5{
+    font-style: italic;
+    padding-left: 50px;
+    padding-top: 20px;    
+}
+.about3{
+    display:flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+}
+.about3 .mission{
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color:lightgray;
+    margin-right: 10px;
+}
+.about3 .vision{
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color:lightgray;
+    margin-left: 10px;
+}
+.about3 .mission h3{
+    font-style: italic;
+}
+
+
+/* CONTACT US PAGE */
+.contact{
+    background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-hand-drawn-cute-seamless-cat-paw-background-picture-image_1282901.jpg");
+    background-size: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.contact .contact1{
+    height: 400px;
+    width: 400px;
+    background-color:grey;
+    border-radius: 30px;
+    margin-top: 150px;
+    padding-left: 10px;
+}
+.contact1 h5{
+    padding-top: 30px;    
+    padding-left: 140px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact1 p{
+    font-style: italic;
+    font-weight: 600;
+}
+.contact1 h3{
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding-left: 30px;
+}
+.contact .contact2{
+    background-color:grey;
+    height: 400px;
+    width: 400px;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+.contact2 h5{
+    padding-top: 30px;
+    padding-left: 140px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact2 input{
+    margin-left: 110px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: hidden;
+}
+.contact2 select{
+    margin-left: 113px;
+    margin-top: 10px;
+    width: 180px;
+    border-radius: 10px;
+    border-style: hidden;
+}
+.contact2 textarea{
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.contact button{
+    margin-left: 160px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+
+
+
